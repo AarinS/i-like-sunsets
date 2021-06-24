@@ -32,7 +32,7 @@ if(backgroundImg) {
 }
 
 async function getBackgroundImg(){
-    var response = await fetch("https://worldtimeapi.org/api/timezone/pacific/auckland")
+    var response = await fetch("http://worldtimeapi.org/api/timezone/pacific/auckland")
 
     
 
